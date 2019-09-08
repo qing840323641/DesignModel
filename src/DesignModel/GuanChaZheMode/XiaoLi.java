@@ -16,7 +16,7 @@ public class XiaoLi implements Person{
     @Override
     public void getMessage(String s) {
         XiaoMei xiaoMei = new XiaoMei();
-        System.out.println(name + "接到了小美的电话，内容是：" + s);
+        System.out.println(name + "接到了asdadwqeqwe小美的电话，内容是：" + s);
 
     }
 }
