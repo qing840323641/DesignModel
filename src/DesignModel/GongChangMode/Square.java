@@ -10,8 +10,9 @@ package DesignModel.GongChangMode;
 public class Square implements Shape {
     @Override
     public void draw() {
-        System.out.println("Square::调用了画正方形的方法");
 
+        System.out.println("Square::调用了画正方形的方法");
     }
+
 }
 

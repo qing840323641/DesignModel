@@ -1,5 +1,8 @@
 package DesignModel.ZhuangShiZheMode;
 
+import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * XXXXXXXXX装饰者模式 © Copyright 2019<br>
  *测试类
@@ -15,7 +18,9 @@ public class Test {
                         //面包       -蔬菜       -奶油
         Food food = new Bread(new Vegetable(new Cream(new Food("三明治"))));
         System.out.println(food.make());
+        ConcurrentHashMap<Object, Object> objectObjectConcurrentHashMap = new ConcurrentHashMap<>();
 
     }
 }
+
 
